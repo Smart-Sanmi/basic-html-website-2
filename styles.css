@@ -1,0 +1,221 @@
+
+* {
+  margin: 0px;
+  font-family: "Shantell Sans", cursive;
+  line-height: 20px;
+}
+
+body {
+  margin: 10px;
+}
+hr {
+  border: 1.5px solid black;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 0px 10px;
+  
+}
+nav a {
+  color: black;
+  font-size: 0.9em;
+}
+
+a:visited {
+  color: black;
+}
+a:hover {
+  color: white;
+  background-color: grey; 
+  padding: 10px;
+  border-radius: 15px;
+}
+a:active {
+  color: black;
+}
+
+nav a {
+  padding: 0 5px;
+}
+
+/** moving to the banner section  **/
+
+.header {
+  /*width: 100%; */
+  text-align: center;
+  /* margin: auto ;
+  padding-top: 50px; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  height: 50vh;
+}
+h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+h6 {
+  color: gray;
+  font-size: 1rem;
+  margin-top: 20px;
+}
+h3, h4 {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.container {
+}
+.boxA > p {
+  padding: 15px;
+}
+
+.boxA > h3 {
+  padding: 15px 15px 0 15px;
+}
+
+.header_font {
+  font-family: "Shantell Sans", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "BNCE" 0,
+    "INFM" 0,
+    "SPAC" 0;
+}
+
+.mainbox {
+  display: grid;
+  grid-template-columns: auto 35% 35%;
+  column-gap: 2px;
+  background-color: black;
+}
+
+.mainelt {
+  
+  background-color: white;
+}
+
+.innerbox{
+  padding: 15px;
+}
+.mainelt p, .mainelt h3, .mainelt h4 {
+  margin-left: 20px;
+}
+.box2 {
+  border-top: solid black 2px;
+}
+
+p {
+  font-size: 16px;
+}
+
+/* final section before footer */
+
+.reviewbox h3 {
+  margin: 20px;
+  
+}
+.lowerbox{
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  align-content:center;
+  justify-content: space-around;
+  
+}
+
+address {
+  margin-top: 10px;
+  color: lightgray;
+}
+.card {
+  border: black 2px solid;
+  border-radius: 30px;
+  padding: 20px;
+}
+.card p {
+  font-family: Arial;
+}
+
+footer {
+  text-align: center;
+  margin: 50px auto;
+  padding-top: 50px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+  body {
+    margin: 0px; 
+      
+  }
+  .navbar {
+    display: initial;
+    text-align: center;
+  } 
+  .header {
+    height: 25vh;
+  }
+  h1 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  h6 {
+    font-size: 0.8rem;
+    margin-top: 0px
+  }
+  .mainbox, .lowerbox {
+    display: initial;
+  }
+  .boxA {
+    text-align: center;
+    background-color: white;
+  }
+  .boxA hr {
+    display: none;
+  }
+  .boxA p {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: lightgray;
+  }
+  .mainelt p, .mainelt h3, .mainelt h4 {
+    margin-left: 0px;
+  }
+  .mainbox {
+    background-color: initial;
+  }
+  .mainelt {
+    
+  }
+  .mainelt h3 {
+    text-align: center;
+  }
+  .box1 hr, .box2 hr {
+    display: none;
+  }
+  .box1 h3 {
+    padding-bottom: 15px;
+    border-bottom: 2px solid black;
+  }
+  .subbox {
+    margin-left: 20px;
+  }
+  
+  .box1, .box2 {
+    padding-left: 0px;
+    padding-right: 0px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+  }
+  
+  .card2, .card3 {
+    display: none;
+  }
+}
+
+ 
